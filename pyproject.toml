@@ -1,0 +1,25 @@
+[project]
+name = "agent-eval"
+version = "0.1.0"
+description = "Production-grade LangChain agent evaluation system with custom DeepEval resilience harness and 7-metric tracing"
+readme = "README.md"
+authors = [
+    { name = "avish006", email = "avishcoder@gmail.com" }
+]
+requires-python = ">=3.12.10"
+dependencies = [
+    "deepeval[inspect]>=4.2.8",
+    "dotenv>=0.9.9",
+    "langchain>=1.4.7",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.7.3",
+    "langchain-openrouter>=0.2.9",
+    "portalocker[win32]>=4.4.0",
+]
+
+[project.scripts]
+agent-eval = "agent_eval:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
