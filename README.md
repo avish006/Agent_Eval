@@ -246,13 +246,6 @@ uv run python agent/agent.py
 
 ---
 
-## Author
-
-**Avish**  
-AI / LLM Systems Engineer  
-* GitHub: [@avish006](https://github.com/avish006)  
-* Email: avishcoder@gmail.com  
-
 ---
 
 ## License
